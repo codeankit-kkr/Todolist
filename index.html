@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+    <title>Todo list</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav container" id="navbar">
+        <h1 class="logo"><span class="list">TODO LIST</span></h1>
+        <ul class="nav-items">
+          <li><a href="">Home</a></li>
+          <li><a href="">Todo</a></li>
+          <li><a href="">Sign Up</a></li>
+        </ul>
+      </nav>
+      <div class="headline">
+        <h2>Manage your tasks</h2>
+        <button class="btn btn-headline">Learn More</button>
+      </div>
+    </header>
+    <section class="section-todo">
+      <h2>Your plan for today ?</h2>
+      <form action="" class="myform">
+        <input type="text" name="" id="" placeholder="Add Todo" />
+        <input type="submit" value="Add Todo" />
+      </form>
+      <ul class="todo-list">
+        <li>
+          <span class="text">Do this</span>
+          <div class="todo-buttons">
+            <button class="todo-btn done">Done</button>
+            <button class="todo-btn remove">Remove</button>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="section-signup signupsec">
+      <h2>Sign Up</h2>
+      <form action="" class="signupform">
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username" />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <div class="form-group">
+          <label for="confirmpassword">Confirm Password</label>
+          <input type="text" name="confirmpassword" id="confirmpassword" />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="text" name="phone" id="phone" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <button type="submit" class="btn signup-btn">Submit</button>
+      </form>
+    </section>
+    <button class="btn change">Change BG</button>
+  </body>
+</html>
